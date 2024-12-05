@@ -5,6 +5,7 @@ import { food_list } from "../assets/assets";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
+    const url="https://food-delivery-x0q4.onrender.com"
 
     const [cartItems,setCartItems]= useState({});
 
